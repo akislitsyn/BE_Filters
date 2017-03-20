@@ -1,4 +1,12 @@
 //new2
+5 "setDamage" !"player setdamage 0;" !"player setDamage 1;" !"_vehicle setDamage 0; "!"if\("""" == typeOf _tree\) then \{\n_tree setDamage 1;\n\};" !"if\("""" == typeOf _tree\) then \{\n_tree setDamage 0.99;\n\};" !"if \(_ent isKindOf ""Animal""\) then \{\n_ent setDamage 1;\n" !"if \(_ent isKindOf ""Animal"" or _isZombie\) then \{\n_ent setDamage 1;"
+1 "addBackpackCargoGlobal" !"_holder addbackpackcargoGlobal \[_x,\(_objWpnQty select _countr\)\];"
+5 "_classname = \"HelicopterExploBig\";"
+5 "hint \"Server Anti-Hack is OFF\. Rejoin Server Now\""
+5 "_agent setDamage 1"
+5 HangenderRE
+5 "Logic" !"\"Logic\" createVehicleLocal" !"sideLogic" !"BIS_MPF_clientJIPlogic" !"_humanity_logic"
+5 _codeAHOFF
 1 "_ZenPart"
 1 "dedicatedServerInterface"
 5 "tppppNW4F"
@@ -39,8 +47,8 @@
 1 "_Editor ="
 1 "\"F\"+\"u\"+\"n\"+\"c\"+\"t\"+\"i\"+\"o\"+\"n\"+\"s\"+\"M\"+\"a\"+\"n\"+\"a\"+\"g\"+\"e\"+\"r\""
 1 "Fun\"+\"ctions\"+\"Man\"+\"ager"
-1 "], \"FunctionsManager\"]"
-1 "],\"FunctionsManager\"]"
+5 "], \"FunctionsManager\"]"
+5 "],\"FunctionsManager\"]"
 1 "\"Functions\" + \"Manager\""
 1 "\"Fuck server\""
 1 "c\"+\"reateGroup"
