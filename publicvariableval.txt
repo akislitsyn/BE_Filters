@@ -290,7 +290,6 @@
 5 "player_humanitymorph"
 5 "player_medbandage"
 5 "player_medepi"
-5 "player_medmorphine"
 5 "player_medpainkiller"
 5 "player_medtransfuse"
 5 "player_music"
